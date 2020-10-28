@@ -7185,26 +7185,28 @@ namespace Microsoft.Protocols.TestSuites.MS_ASCMD
                 Site.CaptureRequirement(
                     72172506,
                     @"[In Status (Find)] The following table specifies valid values [1,2,3,4] for the Status element as a child of the Store element in the Search response.");
-                #endregion                
+                #endregion
 
                 #region Capture code for Result
-                foreach (FindResponseResult result in findResponse.ResponseData.Response.Results)
+                if (findResponse.ResponseData.Response.Results != null)
                 {
-                    if (result!= null)
+                    foreach (FindResponseResult result in findResponse.ResponseData.Response.Results)
                     {
-                        #region Capture code for Class
-                        //findResponse.ResponseData.Response.Result.Class
-                        #endregion
+                        if (result != null)
+                        {
+                            #region Capture code for Class
+                            //findResponse.ResponseData.Response.Result.Class
+                            #endregion
 
-                        #region Capture code for CollectionId
-                        //findResponse.ResponseData.Response.Result.CollectionId
-                        #endregion
+                            #region Capture code for CollectionId
+                            //findResponse.ResponseData.Response.Result.CollectionId
+                            #endregion
 
-                        #region Capture code for ServerId
-                        //findResponse.ResponseData.Response.Result.ServerId
-                        #endregion
-         
-                        #region Capture code for Properties
+                            #region Capture code for ServerId
+                            //findResponse.ResponseData.Response.Result.ServerId
+                            #endregion
+
+                            #region Capture code for Properties
                             //findResponse.ResponseData.Response.Result.Properties
                             if (result.Properties != null)
                             {
@@ -7359,9 +7361,11 @@ namespace Microsoft.Protocols.TestSuites.MS_ASCMD
                                 }
                             }
                             #endregion
-                   
+
+                        }
                     }
                 }
+                
                 #endregion
 
                 #region Capture code for Range
