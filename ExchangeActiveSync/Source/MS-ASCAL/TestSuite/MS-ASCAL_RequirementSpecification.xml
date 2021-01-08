@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns1:ReqTable xmlns:ns1="http://schemas.microsoft.com/windows/ProtocolsTest/2007/07/RequirementTable">
 	<ns1:Requirement>
 		<ns1:REQ_ID>MS-ASCAL_R12</ns1:REQ_ID>
@@ -1856,15 +1856,6 @@ AirSync [and reference is] [MS-ASCMD] section 2.2.1.21.</ns1:Description>
 		<ns1:Verification>Adapter</ns1:Verification>
 	</ns1:Requirement>
 	<ns1:Requirement>
-		<ns1:REQ_ID>MS-ASCAL_R13810</ns1:REQ_ID>
-		<ns1:Doc_Sect>2.2.2.9</ns1:Doc_Sect>
-		<ns1:Description>[In BusyStatus] [The value is] -1 [meaning] Status Unknown.</ns1:Description>
-		<ns1:Behavior>Protocol</ns1:Behavior>
-		<ns1:Scope>Both</ns1:Scope>
-		<ns1:IsNormative>Normative</ns1:IsNormative>
-		<ns1:Verification>Unverified</ns1:Verification>
-	</ns1:Requirement>
-	<ns1:Requirement>
 		<ns1:REQ_ID>MS-ASCAL_R13811</ns1:REQ_ID>
 		<ns1:Doc_Sect>2.2.2.9</ns1:Doc_Sect>
 		<ns1:Description>[In BusyStatus] [The value is] 0 [meaning] Free.</ns1:Description>
@@ -1964,15 +1955,6 @@ AirSync [and reference is] [MS-ASCMD] section 2.2.1.21.</ns1:Description>
 		<ns1:Verification>Adapter</ns1:Verification>
 	</ns1:Requirement>
 	<ns1:Requirement>
-		<ns1:REQ_ID>MS-ASCAL_R2235001</ns1:REQ_ID>
-		<ns1:Doc_Sect>2.2.2.9</ns1:Doc_Sect>
-		<ns1:Description>[In BusyStatus] The value -1 (Status Unknow) is not supported in protocol versions [2.5, 12.0,] 12.1[, 14.0, and 14.1].</ns1:Description>
-		<ns1:Behavior>Protocol</ns1:Behavior>
-		<ns1:Scope>Both</ns1:Scope>
-		<ns1:IsNormative>Normative</ns1:IsNormative>
-		<ns1:Verification>Unverified</ns1:Verification>
-	</ns1:Requirement>
-	<ns1:Requirement>
 		<ns1:REQ_ID>MS-ASCAL_R2043</ns1:REQ_ID>
 		<ns1:Doc_Sect>2.2.2.9</ns1:Doc_Sect>
 		<ns1:Description>[In BusyStatus] The value 4 (working elsewhere) is not supported in protocol versions [2.5, 12.0, 12.1,] 14.0[, and 14.1].</ns1:Description>
@@ -1980,15 +1962,6 @@ AirSync [and reference is] [MS-ASCMD] section 2.2.1.21.</ns1:Description>
 		<ns1:Scope>Both</ns1:Scope>
 		<ns1:IsNormative>Normative</ns1:IsNormative>
 		<ns1:Verification>Adapter</ns1:Verification>
-	</ns1:Requirement>
-	<ns1:Requirement>
-		<ns1:REQ_ID>MS-ASCAL_R2043001</ns1:REQ_ID>
-		<ns1:Doc_Sect>2.2.2.9</ns1:Doc_Sect>
-		<ns1:Description>[In BusyStatus] The value -1 (Status Unknow) is not supported in protocol versions [2.5, 12.0, 12.1,] 14.0[, and 14.1].</ns1:Description>
-		<ns1:Behavior>Protocol</ns1:Behavior>
-		<ns1:Scope>Both</ns1:Scope>
-		<ns1:IsNormative>Normative</ns1:IsNormative>
-		<ns1:Verification>Unverified</ns1:Verification>
 	</ns1:Requirement>
 	<ns1:Requirement>
 		<ns1:REQ_ID>MS-ASCAL_R2044</ns1:REQ_ID>
@@ -2000,15 +1973,6 @@ AirSync [and reference is] [MS-ASCMD] section 2.2.1.21.</ns1:Description>
 		<ns1:Verification>Adapter</ns1:Verification>
 	</ns1:Requirement>
 	<ns1:Requirement>
-		<ns1:REQ_ID>MS-ASCAL_R2044001</ns1:REQ_ID>
-		<ns1:Doc_Sect>2.2.2.9</ns1:Doc_Sect>
-		<ns1:Description>[In BusyStatus] The value -1 (Status Unknow) is not supported in protocol versions [2.5, 12.0, 12.1, 14.0, and] 14.1.</ns1:Description>
-		<ns1:Behavior>Protocol</ns1:Behavior>
-		<ns1:Scope>Both</ns1:Scope>
-		<ns1:IsNormative>Normative</ns1:IsNormative>
-		<ns1:Verification>Unverified</ns1:Verification>
-	</ns1:Requirement>
-	<ns1:Requirement>
 		<ns1:REQ_ID>MS-ASCAL_R2044002</ns1:REQ_ID>
 		<ns1:Doc_Sect>2.2.2.9</ns1:Doc_Sect>
 		<ns1:Description>[In BusyStatus] The value 4 (working elsewhere) is not supported in a command request in protocol versions 16.0</ns1:Description>
@@ -2018,27 +1982,9 @@ AirSync [and reference is] [MS-ASCMD] section 2.2.1.21.</ns1:Description>
 		<ns1:Verification>Unverified</ns1:Verification>
 	</ns1:Requirement>
 	<ns1:Requirement>
-		<ns1:REQ_ID>MS-ASCAL_R2044003</ns1:REQ_ID>
-		<ns1:Doc_Sect>2.2.2.9</ns1:Doc_Sect>
-		<ns1:Description>[In BusyStatus] The value –1 (Status Unknown) is not supported in a command request in protocol versions 16.0</ns1:Description>
-		<ns1:Behavior>Protocol</ns1:Behavior>
-		<ns1:Scope>Client</ns1:Scope>
-		<ns1:IsNormative>Normative</ns1:IsNormative>
-		<ns1:Verification>Unverified</ns1:Verification>
-	</ns1:Requirement>
-	<ns1:Requirement>
 		<ns1:REQ_ID>MS-ASCAL_R2044004</ns1:REQ_ID>
 		<ns1:Doc_Sect>2.2.2.9</ns1:Doc_Sect>
 		<ns1:Description>[In BusyStatus] The value 4 (working elsewhere) is not supported in a command request in protocol versions 16.1</ns1:Description>
-		<ns1:Behavior>Protocol</ns1:Behavior>
-		<ns1:Scope>Client</ns1:Scope>
-		<ns1:IsNormative>Normative</ns1:IsNormative>
-		<ns1:Verification>Unverified</ns1:Verification>
-	</ns1:Requirement>
-	<ns1:Requirement>
-		<ns1:REQ_ID>MS-ASCAL_R2044005</ns1:REQ_ID>
-		<ns1:Doc_Sect>2.2.2.9</ns1:Doc_Sect>
-		<ns1:Description>[In BusyStatus] The value –1 (Status Unknown) is not supported in a command request in protocol versions 16.1</ns1:Description>
 		<ns1:Behavior>Protocol</ns1:Behavior>
 		<ns1:Scope>Client</ns1:Scope>
 		<ns1:IsNormative>Normative</ns1:IsNormative>
